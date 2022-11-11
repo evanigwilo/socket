@@ -1,0 +1,42 @@
+<html>
+
+<head>
+  <link rel="stylesheet" href="style.css">
+  <!-- <meta 
+  http-equiv="Content-Security-Policy"   
+  content="upgrade-insecure-requests" 
+ /> -->
+</head>
+
+<body>
+  <!-- <style>
+    #outgoing {
+      width: 600px;
+      word-wrap: break-word;
+      white-space: normal;
+    }
+  </style>
+  <form>
+    <textarea id="incoming"></textarea>
+    <button type="submit">submit</button>
+  </form>
+  <pre id="outgoing"></pre> -->
+
+  <div class="video__container">
+    <button id="copy">Copy</button>
+    <p>Video 1</p>
+    <video playsinline id="v1" autoplay controls></video>
+    <input type="button" id="b0" value="Load Video" />
+    <input type="button" id="b1" value="Make Call" />
+    <input type="text" id="t1" placeholder="Enter Caller Id" />
+    <label>Calling ...</label>
+    <input type="button" id="b2" value="Answer Call" />
+  </div>
+  <div class="video__container">
+    <p>Video 2</p>
+    <video muted playsinline id="v2" autoplay></video>
+  </div>
+  <script src="main.js"></script>
+</body>
+
+</html>

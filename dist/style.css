@@ -1,0 +1,29 @@
+
+#outgoing {
+    width: 600px;
+    word-wrap: break-word;
+    white-space: normal;
+}
+body{
+    margin-top: 10%;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+.video__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 48%;
+    height: 350px;
+}
+.video__container > video{
+    border: 1px solid gray;
+    background-color: cornflowerblue;
+    box-shadow: 1px 1px 1px grey;
+    width: 100%;
+    height: 100%;
+}
+#b2{
+    display: none;
+}
